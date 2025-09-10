@@ -1,5 +1,5 @@
 % --- Demostración de Operadores de Cruce ---
-parent1 = [1, 1, 1, 1, 1, 0, 0, 0, 0, 0];
+parent1 = [1, 1, 1, 1, 0, 0, 0, 0, 0, 0];
 parent2 = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1];
 
 fprintf('Padre 1: %s\n', mat2str(parent1));

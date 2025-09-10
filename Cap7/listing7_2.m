@@ -1,3 +1,6 @@
+% =================================================
+% Algoritmo Evolutivo (1+1)-ES para minimizar la función de Rosenbrock
+% =================================================
 rosenbrock = @(x) 100*(x(2) - x(1)^2)^2 + (1 - x(1))^2;
 % Dibujar la función de Rosenbrock
 x1 = linspace(-2, 2, 100);
