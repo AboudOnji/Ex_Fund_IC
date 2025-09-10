@@ -8,7 +8,7 @@
 % Email:aboud.barsekh@anahauc.mx
 % Date: June 2023
 %=================================================
-x1_range = linspace(-5, 5, 100); %
+x1_range = linspace(-5, 5, 100); 
 x2_range = linspace(-5, 5, 100);
 [X1, X2] = meshgrid(x1_range, x2_range); %Crear una malla de puntos para evaluar la función en un grid
 Z = X1.^2 + X2.^2 + 2 * sin(X1).* sin(X2); % Evaluar la función en cada punto de la malla
